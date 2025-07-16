@@ -1,4 +1,4 @@
-function getMessage(): Promise<string> {
+function getMessage(): Promise<String> {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("Hello from TS");
@@ -6,4 +6,4 @@ function getMessage(): Promise<string> {
   });
 }
 
-getMessage().then(result => console.log(result));
+getMessage().then((result) => console.log(result));
