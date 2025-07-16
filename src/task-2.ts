@@ -1,7 +1,7 @@
 interface Product {
-  readonly id: Number;
-  title: String;
-  description?: String;
+  readonly id: number;
+  title: string;
+  description?: string;
 }
 
 const product: Product = {
@@ -10,4 +10,4 @@ const product: Product = {
   description: "Compact and fast",
 };
 
-console.log(`Product: ${JSON.Stringify(product)}`);
+console.log(`Product: ${JSON.stringify(product)}`);
